@@ -1,0 +1,250 @@
+*{
+    font-family: 'Poppins';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Factura {
+    width: 1172px;
+    height: 1656px;
+    background-image: url(Esquema.png);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Logotipo{
+    width: 120px;
+    position: absolute; 
+    left: 80px;
+    top: 40px;
+    z-index: 1;
+}
+
+.Titu{
+    position: absolute;
+    color: white;
+    left: 200px;
+    top: 40px;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 900;
+    z-index: 1;
+
+}
+
+.Titulo{
+    color: #003e5f;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    font-weight: 900;
+    font-size: 100px;
+}
+.Date{
+    position: absolute;
+    top: 262px;
+    right: 50px;
+    font-size: 30px;
+    display: flex;
+    gap: 20px;
+}
+.ID{
+    color: #4D4A48;
+
+}
+.Year{
+    color: #4C4A49;
+    position: relative;
+    left: 15px;
+}
+
+.Cuadro_fechas{
+    width: 15px;
+    height: 15px;
+    right: 15px;
+
+}
+
+.Información{
+    color: #4C4A4B;
+    position: absolute;
+    top: 365px;
+    left: 105px;
+    font-family: 'Poppins';
+    line-height: 13px;
+    font-size: 25px;
+}
+
+.Descripción{
+    background-color: #003E5F;
+    width: 90%;
+    height: 50px;
+    border: 2px solid;
+    position: absolute;
+    top: 580px;
+    left: 5%;
+    border-radius: 40px;
+
+}
+
+
+.Table{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 85%;
+    font-size: 20px;
+}
+.Table thead{
+    color: white;
+    line-height: 100px;
+}
+.Table tbody{
+    position: relative;
+    left: 30px;
+    line-height: 100px;
+}
+
+.Table tr th{
+    color:white
+}
+
+.Línea1{
+    position: relative;
+    top: 770px;
+    width: 80%;
+}
+
+.Línea2{
+    position: relative;
+    top: 860px;
+    width: 80%;
+}
+
+.Línea3{
+    position: relative;
+    top: 950px;
+    width: 80%;
+}
+
+.Línea4{
+    position: relative;
+    top: 1040px;
+    width: 80%;
+}
+
+.Línea5{
+    position: relative;
+    top: 1100px;
+    width: 80%;
+}
+
+.Línea6{
+    position: relative;
+    top: 1160px;
+    width: 80%;
+}
+
+.Terminos_Condiciones{
+    position: absolute;
+    bottom: 300px;
+    left: 120px;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+}
+.Terminos_Condiciones p{
+    margin: 10px;
+}
+
+.Valor{
+    position: absolute;
+    bottom: 240px;
+    right: 100px;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 0;
+    width: 250px;
+}
+
+.Valor span{
+    position: absolute;
+    right: 0;
+}
+
+.Director{
+    position: absolute;
+    bottom: 80px;
+    left: 140px;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.Footer_Pag{
+    position: absolute;
+    right: 100px;
+    bottom: 80px;
+    color: white;
+    z-index: 1;
+}
+.Url{
+    position: absolute;
+    right: 4px;
+    margin: 0;
+}
+
+
+
+.Arriba{
+    position: absolute;
+    top: 0px;
+    width: 1172px;
+    
+}
+
+
+.Circulo{
+    position: absolute;
+    top: 340px;
+    left: 0px;
+    width: 90px;   
+}
+
+.Abajo{
+    position: absolute;
+    bottom: 0px;
+    width: 1172px;
+    transform: rotate(180deg);  
+    
+}
+
+.Circulo2{
+    position: absolute;
+    bottom: 340px;
+    right: 0px;
+    width: 90px;   
+    transform: rotate(180deg);  
+}
+
+.Lineas{
+    position: absolute;
+    top: 455px;
+    right: 70px;
+    width: 210px;
+}
+.Flechas{
+    position: absolute;
+    height: 500px;
+    right: 500px;
+}
